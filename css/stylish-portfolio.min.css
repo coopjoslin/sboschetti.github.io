@@ -1,3 +1,22 @@
+/* Custom styling
+ *
+ *
+ *
+ */
+ .port-container {
+    display: grid;
+    margin: 0px auto;
+  
+  }
+  #project1 {
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+  }
+  
+  .mb-1 {
+    color: white;
+  }
+
 /*!
  * Start Bootstrap - Stylish Portfolio v5.0.9 (https://startbootstrap.com/theme/stylish-portfolio)
  * Copyright 2013-2020 Start Bootstrap

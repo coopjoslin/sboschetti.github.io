@@ -228,7 +228,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #6EAF90;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -316,7 +316,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: #6EAF90;
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -339,7 +339,7 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #6EAF90;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
@@ -350,7 +350,7 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color: #6EAF90;
 }
 
 a:hover, a:focus, a:active {
@@ -358,8 +358,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #6EAF90 !important;
+  border-color: #6EAF90 !important;
   color: #fff !important;
 }
 
@@ -389,11 +389,11 @@ a:hover, a:focus, a:active {
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
+  background-color: #6EAF90 !important;
 }
 
 .text-primary {
-  color: #1D809F !important;
+  color: #6EAF90 !important;
 }
 
 .text-secondary {

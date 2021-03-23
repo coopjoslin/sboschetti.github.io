@@ -6,8 +6,11 @@
 .port-container {
   display: grid;
   margin: 0px auto;
-
 }
+.portfolio-item img {
+  width: 20%;
+}
+
 #project1 {
   grid-template-columns: 100px 100px;
   grid-template-rows: 100px 100px;

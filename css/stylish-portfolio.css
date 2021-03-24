@@ -3,6 +3,11 @@
  *
  *
  */
+
+ a :active {
+   color: #1C2826;
+   text-decoration: none;
+ }
 .port-container {
   display: grid;
   margin: 0px auto;
@@ -16,29 +21,30 @@
   object-fit: contain;
 }
 
-#project1 .project-container {
+#projecs1 .project-container {
   display: grid;
   grid-column: 1 / 2;
   grid-row: 1;
-  background-color: green;
+  text-align: end;
 }
 .project-container #project2 {
   display: grid;
   grid-column: 2 / 3;
   grid-row: 1;
-  background-color: pink;
+  text-align: end;
 }
 .project-container #project3 {
   display: grid;
   grid-column: 1 / 2;
   grid-row: 2;
-  background-color: yellow;
+  text-align: end;
 }
 .project-container #project4 {
   display: grid;
   grid-column: 1 / 2;
   grid-row: 2;
-  background-color: blue;
+
+  text-align: end;
 }
 
 .mb-1 {

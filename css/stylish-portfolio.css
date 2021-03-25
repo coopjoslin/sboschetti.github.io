@@ -16,7 +16,7 @@
 
 .project-container a img {
   object-fit: contain;
-  max-width: fit-content;
+  max-width: 100px;
 }
 
 .project-container:hover {

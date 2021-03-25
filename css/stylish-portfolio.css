@@ -21,7 +21,11 @@
   object-fit: contain;
 }
 
-#projecs1 .project-container {
+.project-container:hover {
+  background-color: #F0E2E7;
+}
+
+#project1 .project-container {
   display: grid;
   grid-column: 1 / 2;
   grid-row: 1;

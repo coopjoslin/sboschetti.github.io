@@ -5,7 +5,7 @@
  */
 
 
-.port-container {
+ .port-container {
   display: grid;
   margin: 0px auto;
 }
@@ -21,6 +21,66 @@
 
 .project-container:hover {
   background-color: #F0E2E7;
+}
+
+#project1 .project-container {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 1;
+  text-align: end;
+}
+.project-container #project2 {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 1;
+  text-align: end;
+}
+.project-container #project3 {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 2;
+  text-align: end;
+}
+.project-container #project4 {
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 2;
+
+  text-align: end;
+}
+
+.mb-1 {
+  color: white;
+}
+
+.mb-5 {
+  color: white;
+}/* Custom styling
+ *
+ *
+ *
+ */
+
+
+.port-container {
+  display: grid;
+  margin: 0px auto;
+}
+.project-container{
+  width: 75%;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.project-container a img {
+  object-fit: contain;
+  max-width: 100px;
+}
+
+.project-container:hover {
+  background-color: #F0E2E7;
+  transition: 1s ease-in-out;
 }
 
 #project1 .project-container {

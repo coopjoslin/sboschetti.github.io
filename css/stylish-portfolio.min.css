@@ -70,6 +70,7 @@
   width: 75%;
   margin: 15px;
   padding: 15px;
+  border-radius: 50px;
 }
 
 .project-container a img {
@@ -80,7 +81,6 @@
 .project-container:hover {
   background-color: #F0E2E7;
   transition: 1s ease-in-out;
-  border-radius: 50px;
 }
 
 #project1 .project-container {

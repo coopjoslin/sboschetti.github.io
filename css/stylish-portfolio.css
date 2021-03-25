@@ -4,10 +4,7 @@
  *
  */
 
- .project-container a h2, .project-container a :active, .project-container a :hover {
-   color: #1C2826;
-   text-decoration: none;
- }
+
 .port-container {
   display: grid;
   margin: 0px auto;
@@ -19,6 +16,7 @@
 
 .project-container a img {
   object-fit: contain;
+  max-width: fit-content;
 }
 
 .project-container:hover {

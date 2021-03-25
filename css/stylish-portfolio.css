@@ -4,7 +4,7 @@
  *
  */
 
- a :active {
+ .project-container a h2, .project-container a :active, .project-container a :hover {
    color: #1C2826;
    text-decoration: none;
  }

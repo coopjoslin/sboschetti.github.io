@@ -3,27 +3,57 @@
  *
  *
  */
- .port-container {
-  display: grid;
-  margin: 0px auto;
+
+ .project-container a h2, .project-container a :active, .project-container a :hover {
+  color: #1C2826;
+  text-decoration: none;
 }
-.project-container a img {
-  width: 20%;
+.port-container {
+ display: grid;
+ margin: 0px auto;
+}
+.project-container{
+ width: 75%;
+ margin: 15px;
 }
 
-#project1 {
-  grid-template-columns: 100px 100px;
-  grid-template-rows: 100px 100px;
+.project-container a img {
+ object-fit: contain;
+}
+
+#projecs1 .project-container {
+ display: grid;
+ grid-column: 1 / 2;
+ grid-row: 1;
+ text-align: end;
+}
+.project-container #project2 {
+ display: grid;
+ grid-column: 2 / 3;
+ grid-row: 1;
+ text-align: end;
+}
+.project-container #project3 {
+ display: grid;
+ grid-column: 1 / 2;
+ grid-row: 2;
+ text-align: end;
+}
+.project-container #project4 {
+ display: grid;
+ grid-column: 1 / 2;
+ grid-row: 2;
+
+ text-align: end;
 }
 
 .mb-1 {
-  color: white;
+ color: white;
 }
 
 .mb-5 {
-  color: white;
+ color: white;
 }
-
 /*!
  * Start Bootstrap - Stylish Portfolio v5.0.9 (https://startbootstrap.com/theme/stylish-portfolio)
  * Copyright 2013-2020 Start Bootstrap
